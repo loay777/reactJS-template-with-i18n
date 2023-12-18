@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +37,15 @@
     transform: rotate(360deg);
   }
 }
+
+/* Default LTR styles */
+body {
+  text-align: left;
+}
+
+/* Override styles for RTL */
+body[dir='rtl'] {
+  text-align: right;
+  /* adjust { padding, margione, alignment...  } for RTL here  */
+}
+
