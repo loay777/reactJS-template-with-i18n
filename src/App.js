@@ -26,11 +26,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {t("learn_react")}
         </a>
+       <div className='language-changer'> <p>{t("language")}</p>
         {i18n.language==='ar'?
         <MyButton onClick={()=>{i18n.changeLanguage('en ')}} title={'en'}></MyButton>:
         <MyButton onClick={()=>{i18n.changeLanguage('ar')}} title={'ع'}></MyButton>}
+        </div>
+
       </header>
     </div>
   );

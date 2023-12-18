@@ -1,6 +1,8 @@
 {
   
         "message": "مرحبا بك",
-        "body":"محتويات موقع ProFM"
+        "body":"محتويات موقع ProFM",
+        "learn_react": "تعلم React",
+        "language": "اللغة"
 
 }

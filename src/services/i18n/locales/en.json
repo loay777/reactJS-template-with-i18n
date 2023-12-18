@@ -1,4 +1,6 @@
 {
         "message": "Hello word!",
-        "body":"ProFM Website Contents"
+        "body":"ProFM Website Contents",
+        "learn_react": "Learn React",
+        "language": "Language"
 }

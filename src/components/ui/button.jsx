@@ -1,5 +1,5 @@
 function MyButton({title,onClick}){
 
-    return <button  onClick={onClick} >{title} x</button>
+    return <button  className="my-button" onClick={onClick} >{title}</button>
 }
 export default MyButton;

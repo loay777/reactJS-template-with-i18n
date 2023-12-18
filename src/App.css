@@ -48,4 +48,28 @@ body[dir='rtl'] {
   text-align: right;
   /* adjust { padding, margione, alignment...  } for RTL here  */
 }
+.language-changer{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  color: #ffffff;
+}
+.my-button{
+  height:40px;
+  min-width: 40px;
+  align-self: center;
+  margin: 12px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 10px;
+  color: #282c34;
+  font-weight: bolder;
+  transition: background-color 0.6s ease;
+  transition: box-shadow 0.3s ease;
+}
+.my-button:hover{
+  background-color: #8fe7ff;
+  box-shadow: 0 0 4px #48d4fa;
+}
+
 
